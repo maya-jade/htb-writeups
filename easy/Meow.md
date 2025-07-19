@@ -2,10 +2,18 @@
 Difficulty: Easy
 OS: Linux
 
+## 🛠️ Attacker Environment
+- **Host OS**: Parrot Security OS (VM)
+- **Tools Used**:
+  - `nmap` — Network scanning and service detection
+  - `telnet` — Manual service interaction (port 23)
+
+---
+
 ## 🧠 Recon
 **Nmap Scan:**
 ```bash
-sudo nmap -sV -Pn 10.129.222.196 (skipped ping check)
+nmap -sV 10.129.222.196
 
 ## 🔍 Enumeration
 Found an open port 23/tcp, running the telnet service

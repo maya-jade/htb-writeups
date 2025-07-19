@@ -2,6 +2,13 @@
 Difficulty: Easy
 OS: Linux
 
+## 🛠️ Attacker Environment
+- **Host OS**: Parrot Security OS (VM)
+- **Tools Used**:
+  - `nmap` — Network scanning and service detection
+  - `telnet` — Manual service interaction (port 23)
+
+---
 ## 🧠 Recon
 Nmap Scan:
 ```bash
