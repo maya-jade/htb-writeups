@@ -5,7 +5,7 @@ OS: Linux
 ## 🧠 Recon
 **Nmap Scan:**
 ```bash
-sudo nmap -sV 10.10.14.12
+sudo nmap -sV -Pn 10.129.222.196 (skipped ping check)
 
 ## 🔍 Enumeration
 Found an open port 23/tcp, running the telnet service
@@ -17,7 +17,7 @@ administrator — ❌
 root — ✅ Success
 
 Commands executed:
-telnet 10.10.14.12
+telnet 10.129.222.196
 login: root
 Password: [blank]
 Gained shell access as root.
