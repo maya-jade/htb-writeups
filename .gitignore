@@ -1,14 +1,42 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# -------------------------------------------------
+# 🐧 Linux Mint / HTB Writeup .gitignore TEMPLATE
+# -------------------------------------------------
 
-pkg/
-src/
+# System and temp files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Files starting with a dot that aren't config (catch-all)
+*.DS_Store
+.cache/
+Trash/
+
+# Editor-specific folders
+.vscode/
+
+# Screenshot/image storage (optional)
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Notes/scripts/tools not ready for push
+notes/
+scripts/
+*.pcap
+
+# Python junk (if using automation)
+__pycache__/
+*.pyc
+.env
+.venv/
+env/
+venv/
+
+# Backup markdown files
+*.md~
+*.old.md
