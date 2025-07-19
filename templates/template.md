@@ -1,4 +1,4 @@
-# Box: Lame
+# Box: Name
 Difficulty: Easy
 OS: Linux
 
