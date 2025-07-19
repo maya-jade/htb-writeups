@@ -27,6 +27,7 @@ screenshots/
 # Notes/scripts/tools not ready for push
 notes/
 scripts/
+templates/
 *.pcap
 
 # Python junk (if using automation)
