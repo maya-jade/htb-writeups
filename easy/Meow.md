@@ -1,38 +1,45 @@
 # Box: Meow
+ID: 1
 Difficulty: Easy
-OS: Linux
 
 ## 🛠️ Attacker Environment
 - **Host OS**: Parrot Security OS (VM)
-- **Tools Used**:
+
+## 🛠️ Tools Used
   - `nmap` — Network scanning and service detection
   - `telnet` — Manual service interaction (port 23)
 
----
+## 🎯 Target Environment
+- **IP Address**: 10.129.222.196 
+- **OS**: Linux
 
 ## 🧠 Recon
-**Nmap Scan:**
+**Nmap Scan (Find Open Ports):**
 ```bash
 nmap -sV 10.129.222.196
-
+```
 ## 🔍 Enumeration
-Found an open port 23/tcp, running the telnet service
+Found an open port **23/tcp**, running the **Telnet** service.
 
 ## 💥 Exploitation
 Tried logging in with common usernames and no password:
-admin — ❌
-administrator — ❌
-root — ✅ Success
+- `admin` — ❌
+- `administrator` — ❌
+- `root` — ✅ **Success**
 
 Commands executed:
+```bash
 telnet 10.129.222.196
 login: root
 Password: [blank]
-Gained shell access as root.
+```
 
 ## 🔐 Privilege Escalation
-Not required - root access via telnet
+Not required - already had root access via telnet
 
 ## 🧼 Cleanup & Lessons
-N/A
-
+No cleanup required
+ **Key takeaways**:
+- Always check for **default credentials** and **blank passwords** on public-facing services.
+- **Telnet** is insecure and should never be exposed on the internet.
+- Low-difficulty boxes often reinforce the importance of basic enumeration and common misconfigurations.
