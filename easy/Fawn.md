@@ -21,8 +21,7 @@ ping 10.129.93.123
 ```
 ### 2. Nmap Scan
 ```bash
-sudo nmap 10.129.93.123
-sudo nmap -sV 10.129.93.123
+nmap -sV 10.129.93.123
 ```
 ## 🔍 Enumeration
 Found an open port **21/tcp**, running **FTP** - allowed anonymous login.
