@@ -40,7 +40,7 @@ xfreerdp /v:10.129.85.244 /u:administrator /cert:ignore
 Not required
 
 ## 🧼 Cleanup & Lessons
-- Not required
-- **Key takeaways**: 
+- xfreerdp session closed cleanly
+**Key takeaways**: 
 - Always read the help files to see what you can utilize to gain access
 - Always try default credentials: root, user, and administrator as credentials 

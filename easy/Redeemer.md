@@ -35,7 +35,7 @@ get flag
 Not required -redis ran as root
 
 ## 🧼 Cleanup & Lessons
-- Not required
-- **Key takeaways**: 
-- Always check if a service runs as root, no authentication required
-- Misconfigs are an easy win
+-redis-cli session ended cleanly.
+**Key takeaways**: 
+- Always check if a service runs as root, no authentication required.
+- Misconfigs are an easy win.

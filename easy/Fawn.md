@@ -50,6 +50,6 @@ ftp 10.129.93.123
 N/A 
 
 ## 🧼 Cleanup & Lessons
-- No Cleanup Required
-- **Key takeaway**:
+- ftp session closed cleanly.
+**Key takeaway**:
 - Always test for anonymous FTP login; low-hanging misconfigs can lead directly to flags.
