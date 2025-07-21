@@ -41,6 +41,6 @@ Not required - already had root access via telnet.
 ## 🧼 Cleanup & Lessons
 - Telnet connection closed cleanly.
 - **Key takeaways**:
--- Always check for default credentials and blank passwords on public-facing services.
--- Telnet is insecure and should never be exposed on the internet.
--- Low-difficulty boxes often reinforce the importance of basic enumeration and common misconfigurations.
+- Always check for default credentials and blank passwords on public-facing services.
+- Telnet is insecure and should never be exposed on the internet.
+- Low-difficulty boxes often reinforce the importance of basic enumeration and common misconfigurations.

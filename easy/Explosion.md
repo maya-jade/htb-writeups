@@ -41,6 +41,6 @@ Not required
 
 ## 🧼 Cleanup & Lessons
 - xfreerdp session closed cleanly
-**Key takeaways**: 
+- **Key takeaways**: 
 - Always read the help files to see what you can utilize to gain access
 - Always try default credentials: root, user, and administrator as credentials 

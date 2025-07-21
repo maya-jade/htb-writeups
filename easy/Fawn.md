@@ -51,5 +51,5 @@ N/A
 
 ## 🧼 Cleanup & Lessons
 - ftp session closed cleanly.
-**Key takeaway**:
+- **Key takeaway**:
 - Always test for anonymous FTP login; low-hanging misconfigs can lead directly to flags.

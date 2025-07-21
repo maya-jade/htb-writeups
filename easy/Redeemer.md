@@ -36,6 +36,6 @@ Not required -redis ran as root
 
 ## 🧼 Cleanup & Lessons
 -redis-cli session ended cleanly.
-**Key takeaways**: 
+- **Key takeaways**: 
 - Always check if a service runs as root, no authentication required.
 - Misconfigs are an easy win.
