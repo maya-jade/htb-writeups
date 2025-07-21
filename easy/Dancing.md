@@ -1,7 +1,7 @@
 # Box: 
 Name: Dancing
 ID: 3
-Difficulty: Easy
+Difficulty: Very Easy
 
 ## 🧠 Attacker Environment
 - **Host OS**: Parrot Security OS (VM)

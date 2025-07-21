@@ -1,7 +1,7 @@
 # Box 
 Name: Redeemer
 ID:4
-Difficulty: Easy
+Difficulty: Very Easy
 
 ## 🧠 Attacker Environment
 - **Host OS**: Parrot Security OS (VM)

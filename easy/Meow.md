@@ -1,7 +1,7 @@
 # Box: 
 Name: Meow
 ID: 1
-Difficulty: Easy
+Difficulty: Very Easy
 
 ## 🛠️ Attacker Environment
 - **Host OS**: Parrot Security OS (VM)

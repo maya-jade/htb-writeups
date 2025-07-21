@@ -1,7 +1,7 @@
 # Box
 Name: Fawn
 ID: 2
-Difficulty: Easy
+Difficulty: Very Easy
 
 ## 🛠️ Attacker Environment
 - **Host OS**: Parrot Security OS (VM)
