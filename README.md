@@ -31,7 +31,7 @@ HTB-WRITEUPS/
 
 - 🛠 **Writeups:** Step-by-step walkthroughs for HTB machines categorized by difficulty.
 - 🧾 **Templates:** A reusable Markdown format for future writeups.
-- 🧼 **Notes:** Fast reference cheatsheets (Nmap, Markdown, etc.).
+- 🧼 **Notes (coming soon):** Fast reference cheatsheets (Nmap, Markdown, etc.).
 - ⚙️ **Scripts (coming soon):** Automation tools to speed up recon and enumeration.
 
 ---
