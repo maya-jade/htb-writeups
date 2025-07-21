@@ -37,5 +37,5 @@ Not required -redis ran as root
 ## 🧼 Cleanup & Lessons
 - Not required
 - **Key takeaways**: 
-- always check if a service runs as root, no authentication required
-- misconfigs are an easy win
+- Always check if a service runs as root, no authentication required
+- Misconfigs are an easy win
