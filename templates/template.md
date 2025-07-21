@@ -1,5 +1,6 @@
-# Box: Name
-ID: (Box Number)
+# Box
+Name: Test Box
+ID: Box Number 
 Difficulty: (Easy/Medium/Hard)
 
 ## 🧠 Attacker Environment
