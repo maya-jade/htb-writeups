@@ -5,7 +5,7 @@ Difficulty: Easy
 Status: Retired
 
 ## 🧠 Attacker Environment
-- **Host OS**: Parrot Security OS (VM) - CHANGE
+- **Host OS**: Parrot Security OS (VM)
 
 ## 🛠️ Tools Used
   - `ping`
